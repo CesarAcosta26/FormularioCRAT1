@@ -14,14 +14,14 @@
         <center><h1>Curriculum vitae</h1></center>
        <center><b><small><li><b>Register Of Information</b></li></small></b></center>
        <br><br>
-       <form>
+       <form action="recibir_formulario.php" method="post" name="formulario" >
         <table width="100%">
         	<tr bgcolor="" align="left"><th colspan="2" ><li><i>1.-Date Personal</i></li>
         		</th></tr>
         		<tr>
         			<td><label>First name</label></td>
         			<td>
-        				<input type="text" name="first_name" id="first_name" required="required" placeholder="Enter your first name" title="Enter your first name" size="50"><br><small>Enter first name </small>
+        				<input type="text" name="nombre" id="nombre" required="required" placeholder="Enter your first name" title="Enter your first name" size="50"><br><small>Enter first name </small>
         			</td>
         		</tr>
                 <tr bgcolor="black" align="left">
@@ -45,7 +45,7 @@
                         <label>Last first name</label>
                     </td>
                     <td>
-                        <input type="text" name="first_name" id="first_name" required="required" placeholder="Enter your last name" title="Enter your last name" size="50"><br><small>Enter second name </small>
+                        <input type="text" name="apellido" id="apellido" required="required" placeholder="Enter your last name" title="Enter your last name" size="50"><br><small>Enter second name </small>
                     </td>
                 </tr>
                 <tr bgcolor="black" align="left">
@@ -62,7 +62,7 @@
                     <label>DNI</label>
                 </td>
                 <td>
-                    <select name="nationality" id="nationality" title="select your nationality">
+                    <select name="cédula" id="cédula" title="select your nationality">
                         <option value="V" title="Venezola@">V</option>
                         <option value="E" title="Extrangeñ@">E</option>
                         <option value="J" title="Juridico">J</option>
